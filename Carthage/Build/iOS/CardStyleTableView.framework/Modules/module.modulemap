@@ -1,0 +1,4 @@
+framework module CardStyleTableView {
+    header "CardStyleTableView-Swift.h"
+    requires objc
+}

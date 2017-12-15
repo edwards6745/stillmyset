@@ -1,0 +1,9 @@
+{
+  "commitish" : "0.1.0",
+  "iOS" : [
+    {
+      "name" : "CardStyleTableView",
+      "hash" : "fa5b3c65fdfc31e9f0898878e102b656080b427f18b6b041e467158a34052679"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stillmyset/WorkoutsTableViewController.swift"
+            timestampString = "535009730.471371"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stillmyset/AddCardViewController.swift"
+            timestampString = "535009730.47147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AddCardViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.card.getter : Swift.ImplicitlyUnwrappedOptional&lt;stillmyset.Card&gt;"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.453854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.card.setter : Swift.ImplicitlyUnwrappedOptional&lt;stillmyset.Card&gt;"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.457039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; stillmyset.AddCardViewController"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.464963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "718">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;stillmyset.AddCardViewController&gt;"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.47011"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "610">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stillmyset/AddCardViewController.swift"
+            timestampString = "535009730.471583"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "AddCardViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.deck.getter : Swift.ImplicitlyUnwrappedOptional&lt;stillmyset.Deck&gt;"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.478462"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.deck.setter : Swift.ImplicitlyUnwrappedOptional&lt;stillmyset.Deck&gt;"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.48181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; stillmyset.AddCardViewController"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.484415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "602">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stillmyset.AddCardViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;stillmyset.AddCardViewController&gt;"
+                  moduleName = "stillmyset"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/austin/Desktop/stillmyset/stillmyset/AddCardViewController.swift"
+                  timestampString = "534519294.487704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "498">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stillmyset/AddCardViewController.swift"
+            timestampString = "535009730.471652"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stillmyset/AddCardViewController.swift"
+            timestampString = "535009730.471716"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stillmyset/WorkoutsTableViewController.swift"
+            timestampString = "535009730.471775"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

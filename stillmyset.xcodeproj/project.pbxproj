@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D94ED3691FE0F4AB00911FEA /* ExercisePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94ED3681FE0F4AB00911FEA /* ExercisePageViewController.swift */; };
+		D94ED36B1FE0FC9800911FEA /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94ED36A1FE0FC9800911FEA /* ExerciseViewController.swift */; };
+		D96AC3C91FDF7892004F6AB9 /* CardStyleTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96AC3C81FDF7892004F6AB9 /* CardStyleTableView.framework */; };
+		D96AC3CA1FDF7892004F6AB9 /* CardStyleTableView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D96AC3C81FDF7892004F6AB9 /* CardStyleTableView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D96C67871FD8F7EA0001F6EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96C67861FD8F7EA0001F6EA /* AppDelegate.swift */; };
-		D96C67891FD8F7EA0001F6EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96C67881FD8F7EA0001F6EA /* ViewController.swift */; };
-		D96C678C1FD8F7EA0001F6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96C678A1FD8F7EA0001F6EA /* Main.storyboard */; };
-		D96C678F1FD8F7EA0001F6EA /* stillmyset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D96C678D1FD8F7EA0001F6EA /* stillmyset.xcdatamodeld */; };
 		D96C67911FD8F7EA0001F6EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96C67901FD8F7EA0001F6EA /* Assets.xcassets */; };
 		D96C67941FD8F7EA0001F6EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96C67921FD8F7EA0001F6EA /* LaunchScreen.storyboard */; };
+		D96C67A21FD91C510001F6EA /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96C679B1FD91C510001F6EA /* AddCardViewController.swift */; };
+		D96C67A41FD91C510001F6EA /* WorkoutsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96C679D1FD91C510001F6EA /* WorkoutsTableViewController.swift */; };
+		D96C67A51FD91C510001F6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96C679E1FD91C510001F6EA /* Main.storyboard */; };
+		D96C67A71FD91C510001F6EA /* WorkoutsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96C67A01FD91C510001F6EA /* WorkoutsTableViewCell.swift */; };
+		D96C67A81FD91C510001F6EA /* AddDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96C67A11FD91C510001F6EA /* AddDeckViewController.swift */; };
+		D9EFE8941FDBA9280003CABA /* stillmyset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8921FDBA9280003CABA /* stillmyset.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D9EFE89A1FDC1B8E0003CABA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D96AC3CA1FDF7892004F6AB9 /* CardStyleTableView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D94ED3681FE0F4AB00911FEA /* ExercisePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePageViewController.swift; sourceTree = "<group>"; };
+		D94ED36A1FE0FC9800911FEA /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		D96AC3C81FDF7892004F6AB9 /* CardStyleTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CardStyleTableView.framework; path = Carthage/Build/iOS/CardStyleTableView.framework; sourceTree = "<group>"; };
 		D96C67831FD8F7EA0001F6EA /* stillmyset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stillmyset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96C67861FD8F7EA0001F6EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D96C67881FD8F7EA0001F6EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D96C678B1FD8F7EA0001F6EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D96C678E1FD8F7EA0001F6EA /* stillmyset.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = stillmyset.xcdatamodel; sourceTree = "<group>"; };
 		D96C67901FD8F7EA0001F6EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96C67931FD8F7EA0001F6EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D96C67951FD8F7EA0001F6EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96C679B1FD91C510001F6EA /* AddCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		D96C679D1FD91C510001F6EA /* WorkoutsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsTableViewController.swift; sourceTree = "<group>"; };
+		D96C679E1FD91C510001F6EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D96C67A01FD91C510001F6EA /* WorkoutsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsTableViewCell.swift; sourceTree = "<group>"; };
+		D96C67A11FD91C510001F6EA /* AddDeckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeckViewController.swift; sourceTree = "<group>"; };
+		D9EFE8931FDBA9280003CABA /* flashcards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flashcards.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96AC3C91FDF7892004F6AB9 /* CardStyleTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +68,7 @@
 		D96C677A1FD8F7EA0001F6EA = {
 			isa = PBXGroup;
 			children = (
+				D96AC3C81FDF7892004F6AB9 /* CardStyleTableView.framework */,
 				D96C67851FD8F7EA0001F6EA /* stillmyset */,
 				D96C67841FD8F7EA0001F6EA /* Products */,
 			);
@@ -56,13 +85,18 @@
 		D96C67851FD8F7EA0001F6EA /* stillmyset */ = {
 			isa = PBXGroup;
 			children = (
+				D9EFE8921FDBA9280003CABA /* stillmyset.xcdatamodeld */,
+				D96C679B1FD91C510001F6EA /* AddCardViewController.swift */,
+				D96C67A11FD91C510001F6EA /* AddDeckViewController.swift */,
+				D96C67A01FD91C510001F6EA /* WorkoutsTableViewCell.swift */,
+				D96C679D1FD91C510001F6EA /* WorkoutsTableViewController.swift */,
+				D96C679E1FD91C510001F6EA /* Main.storyboard */,
 				D96C67861FD8F7EA0001F6EA /* AppDelegate.swift */,
-				D96C67881FD8F7EA0001F6EA /* ViewController.swift */,
-				D96C678A1FD8F7EA0001F6EA /* Main.storyboard */,
 				D96C67901FD8F7EA0001F6EA /* Assets.xcassets */,
 				D96C67921FD8F7EA0001F6EA /* LaunchScreen.storyboard */,
 				D96C67951FD8F7EA0001F6EA /* Info.plist */,
-				D96C678D1FD8F7EA0001F6EA /* stillmyset.xcdatamodeld */,
+				D94ED3681FE0F4AB00911FEA /* ExercisePageViewController.swift */,
+				D94ED36A1FE0FC9800911FEA /* ExerciseViewController.swift */,
 			);
 			path = stillmyset;
 			sourceTree = "<group>";
@@ -77,6 +111,7 @@
 				D96C677F1FD8F7EA0001F6EA /* Sources */,
 				D96C67801FD8F7EA0001F6EA /* Frameworks */,
 				D96C67811FD8F7EA0001F6EA /* Resources */,
+				D9EFE89A1FDC1B8E0003CABA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,7 +163,7 @@
 			files = (
 				D96C67941FD8F7EA0001F6EA /* LaunchScreen.storyboard in Resources */,
 				D96C67911FD8F7EA0001F6EA /* Assets.xcassets in Resources */,
-				D96C678C1FD8F7EA0001F6EA /* Main.storyboard in Resources */,
+				D96C67A51FD91C510001F6EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D96C678F1FD8F7EA0001F6EA /* stillmyset.xcdatamodeld in Sources */,
-				D96C67891FD8F7EA0001F6EA /* ViewController.swift in Sources */,
+				D96C67A71FD91C510001F6EA /* WorkoutsTableViewCell.swift in Sources */,
+				D9EFE8941FDBA9280003CABA /* stillmyset.xcdatamodeld in Sources */,
+				D96C67A81FD91C510001F6EA /* AddDeckViewController.swift in Sources */,
+				D96C67A21FD91C510001F6EA /* AddCardViewController.swift in Sources */,
+				D96C67A41FD91C510001F6EA /* WorkoutsTableViewController.swift in Sources */,
+				D94ED3691FE0F4AB00911FEA /* ExercisePageViewController.swift in Sources */,
+				D94ED36B1FE0FC9800911FEA /* ExerciseViewController.swift in Sources */,
 				D96C67871FD8F7EA0001F6EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,14 +188,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D96C678A1FD8F7EA0001F6EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D96C678B1FD8F7EA0001F6EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D96C67921FD8F7EA0001F6EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -279,6 +311,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = stillmyset/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = umsl.edu.stillmyset;
@@ -293,6 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = stillmyset/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = umsl.edu.stillmyset;
@@ -326,12 +366,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D96C678D1FD8F7EA0001F6EA /* stillmyset.xcdatamodeld */ = {
+		D9EFE8921FDBA9280003CABA /* stillmyset.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D96C678E1FD8F7EA0001F6EA /* stillmyset.xcdatamodel */,
+				D9EFE8931FDBA9280003CABA /* flashcards.xcdatamodel */,
 			);
-			currentVersion = D96C678E1FD8F7EA0001F6EA /* stillmyset.xcdatamodel */;
+			currentVersion = D9EFE8931FDBA9280003CABA /* flashcards.xcdatamodel */;
 			path = stillmyset.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
